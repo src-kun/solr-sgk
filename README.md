@@ -6,6 +6,7 @@
 
 #简单使用
   solr-sgk/bin/solr start 启动
+  
   solr-sgk/bin/solr stop 停止
  
 #参考链接
