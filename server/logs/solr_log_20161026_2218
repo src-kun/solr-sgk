@@ -1,0 +1,716 @@
+2016-10-26 09:59:54.351 INFO  (main) [   ] o.e.j.u.log Logging initialized @238ms
+2016-10-26 09:59:54.499 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-10-26 09:59:54.513 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-10-26 09:59:54.515 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/root/solr/solr-5.5.3/server/contexts/] at interval 0
+2016-10-26 09:59:54.921 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-10-26 09:59:54.933 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@183a37d9{/solr,file:/root/solr/solr-5.5.3/server/solr-webapp/webapp/,STARTING}{/root/solr/solr-5.5.3/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-10-26 09:59:54.942 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1193402811@4721e1bb
+2016-10-26 09:59:54.965 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-26 09:59:54.965 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /root/solr/solr-5.5.3/server/solr
+2016-10-26 09:59:54.965 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/root/solr/solr-5.5.3/server/solr'
+2016-10-26 09:59:54.966 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-26 09:59:54.966 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /root/solr/solr-5.5.3/server/solr
+2016-10-26 09:59:54.971 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /root/solr/solr-5.5.3/server/solr/solr.xml
+2016-10-26 09:59:55.051 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /root/solr/solr-5.5.3/server/solr
+2016-10-26 09:59:55.075 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1499442480
+2016-10-26 09:59:55.075 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/root/solr/solr-5.5.3/server/solr]
+2016-10-26 09:59:55.076 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /root/solr/solr-5.5.3/server/solr/lib to classpath: /root/solr/solr-5.5.3/server/solr/lib
+2016-10-26 09:59:55.087 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2016-10-26 09:59:55.298 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-10-26 09:59:55.301 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-10-26 09:59:55.302 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-10-26 09:59:55.303 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-10-26 09:59:55.303 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-10-26 09:59:55.337 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /root/solr/solr-5.5.3/server/solr
+2016-10-26 09:59:55.346 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=solr_mysql, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data}
+2016-10-26 09:59:55.346 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core solr_mysql in /root/solr/solr-5.5.3/server/solr/solr_mysql
+2016-10-26 09:59:55.346 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-10-26 09:59:55.350 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/root/solr/solr-5.5.3/server
+2016-10-26 09:59:55.350 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-10-26 09:59:55.350 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/root/solr/solr-5.5.3/server/solr/solr_mysql'
+2016-10-26 09:59:55.350 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-26 09:59:55.351 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /root/solr/solr-5.5.3/server/solr
+2016-10-26 09:59:55.362 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@183a37d9{/solr,file:/root/solr/solr-5.5.3/server/solr-webapp/webapp/,AVAILABLE}{/root/solr/solr-5.5.3/server/solr-webapp/webapp}
+2016-10-26 09:59:55.372 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@81fb85b{HTTP/1.1}{0.0.0.0:8983}
+2016-10-26 09:59:55.372 INFO  (main) [   ] o.e.j.s.Server Started @1260ms
+2016-10-26 09:59:55.405 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2016-10-26 09:59:55.411 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-10-26 09:59:55.417 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/dist/solr-dataimporthandler-5.5.3.jar' to classloader
+2016-10-26 09:59:55.417 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/dist/solr-dataimporthandler-extras-5.5.3.jar' to classloader
+2016-10-26 09:59:55.417 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-10-26 09:59:55.418 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-10-26 09:59:55.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-10-26 09:59:55.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2016-10-26 09:59:55.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/poi-3.11.jar' to classloader
+2016-10-26 09:59:55.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-10-26 09:59:55.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-10-26 09:59:55.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2016-10-26 09:59:55.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-10-26 09:59:55.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/dist/solr-cell-5.5.3.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/dist/solr-langid-5.5.3.jar' to classloader
+2016-10-26 09:59:55.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-10-26 09:59:55.421 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2016-10-26 09:59:55.421 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-10-26 09:59:55.421 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-10-26 09:59:55.421 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-5.5.3/dist/solr-velocity-5.5.3.jar' to classloader
+2016-10-26 09:59:55.684 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-10-26 09:59:55.691 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.5.3
+2016-10-26 09:59:55.847 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-10-26 09:59:55.905 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [solr_mysql] Schema name=example-DIH-db
+2016-10-26 09:59:56.358 WARN  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.ThaiWordFilterFactory]. Please consult documentation how to replace it accordingly.
+2016-10-26 09:59:56.386 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-10-26 09:59:56.445 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-10-26 09:59:56.453 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-10-26 09:59:56.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/root/solr/solr-5.5.3/server/solr/solr_mysql'
+2016-10-26 09:59:56.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'solr_mysql' using configuration from instancedir /root/solr/solr-5.5.3/server/solr/solr_mysql
+2016-10-26 09:59:56.564 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-10-26 09:59:56.573 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [[solr_mysql] ] Opening new SolrCore at [/root/solr/solr-5.5.3/server/solr/solr_mysql], dataDir=[/root/solr/solr-5.5.3/server/solr/solr_mysql/data/]
+2016-10-26 09:59:56.574 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-10-26 09:59:56.577 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [[solr_mysql] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-10-26 09:59:56.577 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [[solr_mysql] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2016-10-26 09:59:56.579 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2016-10-26 09:59:56.585 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory return new directory for /root/solr/solr-5.5.3/server/solr/solr_mysql/data
+2016-10-26 09:59:56.586 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore New index directory detected: old=null new=/root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/
+2016-10-26 09:59:56.586 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory return new directory for /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index
+2016-10-26 09:59:56.595 INFO  (OldIndexDirectoryCleanupThreadForCore-solr_mysql) [   x:solr_mysql] o.a.s.c.SolrCore Looking for old index directories to cleanup for core solr_mysql in /root/solr/solr-5.5.3/server/solr/solr_mysql/data/
+2016-10-26 09:59:56.598 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2016-10-26 09:59:56.600 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-10-26 09:59:56.687 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-10-26 09:59:56.718 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-26 09:59:56.721 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-26 09:59:56.722 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-26 09:59:56.722 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-26 09:59:56.740 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2016-10-26 09:59:56.740 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-10-26 09:59:56.740 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-10-26 09:59:56.743 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2016-10-26 09:59:56.743 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2016-10-26 09:59:56.743 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-10-26 09:59:56.743 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2016-10-26 09:59:56.744 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/dataimport,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump
+2016-10-26 09:59:56.745 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-10-26 09:59:56.753 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-10-26 09:59:56.753 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-10-26 09:59:56.766 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-10-26 09:59:56.766 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-10-26 09:59:56.797 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/root/solr/solr-5.5.3/server/solr/solr_mysql/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4e89e3c6; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2016-10-26 09:59:56.798 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy newest commit generation = 6
+2016-10-26 09:59:56.827 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.s.SolrIndexSearcher Opening Searcher@1340ebd2[solr_mysql] main
+2016-10-26 09:59:56.831 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /root/solr/solr-5.5.3/server/solr/solr_mysql/conf
+2016-10-26 09:59:56.831 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/root/solr/solr-5.5.3/server/solr/solr_mysql/conf}
+2016-10-26 09:59:56.838 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/root/solr/solr-5.5.3/server/solr/solr_mysql/conf
+2016-10-26 09:59:56.839 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-10-26 09:59:56.844 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-10-26 09:59:56.849 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-10-26 09:59:56.854 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2016-10-26 09:59:56.857 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /root/solr/solr-5.5.3/server/solr/solr_mysql/conf/elevate.xml
+2016-10-26 09:59:56.872 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-10-26 09:59:56.876 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1340ebd2[solr_mysql] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2016-10-26 09:59:56.877 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-10-26 09:59:56.878 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-10-26 09:59:56.878 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2016-10-26 09:59:56.881 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.UpdateLog Took 3.0ms to seed version buckets with highest version 1549243905175715840
+2016-10-26 09:59:56.882 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.CoreContainer registering core: solr_mysql
+2016-10-26 09:59:56.895 ERROR (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field text
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1278)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:428)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:169)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:372)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:759)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:547)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:315)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:159)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.core.QuerySenderListener.newSearcher(QuerySenderListener.java:68)
+	at org.apache.solr.core.SolrCore$5.call(SolrCore.java:1869)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-26 09:59:56.896 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} status=400 QTime=18
+2016-10-26 09:59:56.896 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-10-26 09:59:56.896 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-10-26 09:59:56.896 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2016-10-26 09:59:56.897 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.c.SolrCore [solr_mysql] Registered new searcher Searcher@1340ebd2[solr_mysql] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2016-10-26 10:00:01.757 INFO  (qtp720239731-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1477476002153&wt=json} status=0 QTime=2
+2016-10-26 10:00:01.889 INFO  (qtp720239731-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={_=1477476002245&wt=json} status=0 QTime=23
+2016-10-26 10:00:12.049 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/select params={indent=true&q=keyword:1%0a&_=1477476012214&wt=json} hits=0 status=0 QTime=231
+2016-10-26 10:00:18.191 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/select params={indent=true&q=keyword:1&_=1477476018600&wt=json} hits=0 status=0 QTime=0
+2016-10-26 10:00:26.253 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/select params={indent=true&q=id:1&_=1477476026661&wt=json} hits=0 status=0 QTime=0
+2016-10-26 10:00:37.347 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/select params={indent=true&q=keyword:123456&_=1477476037756&wt=json} hits=0 status=0 QTime=0
+2016-10-26 10:01:35.298 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/select params={indent=true&q=keyword:q&_=1477476095708&wt=json} hits=0 status=0 QTime=0
+2016-10-26 10:01:44.484 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1477476104858&contentType=text/html;charset%3Dutf-8} status=0 QTime=0
+2016-10-26 10:01:44.490 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1477476104860&contentType=text/html;charset%3Dutf-8} status=0 QTime=0
+2016-10-26 10:01:44.543 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={numTerms=0&_=1477476104927&show=index&wt=json} status=0 QTime=1
+2016-10-26 10:01:44.547 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/replication params={command=details&_=1477476104932&wt=json} status=0 QTime=2
+2016-10-26 10:01:44.554 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1477476104934} status=0 QTime=2
+2016-10-26 10:01:44.558 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/ping params={action=status&_=1477476104936&wt=json} status=503 QTime=2
+2016-10-26 10:01:44.559 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/system params={_=1477476104933&wt=json} status=0 QTime=12
+2016-10-26 10:01:45.615 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={_=1477476106016&show=schema&wt=json} status=0 QTime=3
+2016-10-26 10:01:46.346 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1477476106719&wt=json} status=0 QTime=2
+2016-10-26 10:01:46.441 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1477476106847&wt=json} status=0 QTime=0
+2016-10-26 10:01:46.451 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1477476106848} status=0 QTime=4
+2016-10-26 10:01:46.451 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477476106852&wt=json} status=0 QTime=0
+2016-10-26 10:01:48.449 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-26 10:01:48.457 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-26 10:01:48.461 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&command=full-import&debug=false&wt=json} status=0 QTime=12
+2016-10-26 10:01:48.462 INFO  (Thread-17) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-26 10:01:48.468 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477476108886&wt=json} status=0 QTime=0
+2016-10-26 10:01:48.473 INFO  (Thread-17) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-26 10:01:48.517 INFO  (Thread-17) [   x:solr_mysql] o.a.s.s.SolrIndexSearcher Opening Searcher@1800c3[solr_mysql] realtime
+2016-10-26 10:01:48.529 INFO  (Thread-17) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&command=full-import&debug=false&wt=json} status=0 QTime=12{deleteByQuery=*:* (-1549245987936010240)} 0 80
+2016-10-26 10:02:03.519 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-26 10:02:03.544 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/root/solr/solr-5.5.3/server/solr/solr_mysql/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4e89e3c6; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/root/solr/solr-5.5.3/server/solr/solr_mysql/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@4e89e3c6; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+2016-10-26 10:02:03.545 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy newest commit generation = 7
+2016-10-26 10:02:03.549 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.s.SolrIndexSearcher Opening Searcher@57b439bb[solr_mysql] realtime
+2016-10-26 10:02:03.553 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-27 01:54:50.682 INFO  (qtp720239731-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1477533291094&wt=json} status=0 QTime=1
+2016-10-27 01:54:50.797 INFO  (qtp720239731-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={_=1477533291145&wt=json} status=0 QTime=16
+2016-10-27 01:54:50.835 WARN  (qtp720239731-13) [   ] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_6]
+java.nio.file.NoSuchFileException: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/segments_6
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:97)
+	at java.nio.file.Files.readAttributes(Files.java:1686)
+	at java.nio.file.Files.size(Files.java:2275)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:124)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:604)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:592)
+	at org.apache.solr.handler.admin.CoreAdminOperation.getCoreStatus(CoreAdminOperation.java:888)
+	at org.apache.solr.handler.admin.CoreAdminOperation$4.call(CoreAdminOperation.java:182)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:354)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:153)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:660)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:441)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-27 01:54:50.841 INFO  (qtp720239731-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={_=1477533291233&wt=json} status=0 QTime=9
+2016-10-27 01:54:50.930 WARN  (qtp720239731-20) [   ] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_6]
+java.nio.file.NoSuchFileException: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/segments_6
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:97)
+	at java.nio.file.Files.readAttributes(Files.java:1686)
+	at java.nio.file.Files.size(Files.java:2275)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:124)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:604)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:592)
+	at org.apache.solr.handler.admin.CoreAdminOperation.getCoreStatus(CoreAdminOperation.java:888)
+	at org.apache.solr.handler.admin.CoreAdminOperation$4.call(CoreAdminOperation.java:182)
+	at org.apache.solr.handler.admin.CoreAdminHandler$CallInfo.call(CoreAdminHandler.java:354)
+	at org.apache.solr.handler.admin.CoreAdminHandler.handleRequestBody(CoreAdminHandler.java:153)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.servlet.HttpSolrCall.handleAdminRequest(HttpSolrCall.java:660)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:441)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-27 01:54:50.932 INFO  (qtp720239731-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={_=1477533291319&wt=json} status=0 QTime=2
+2016-10-27 01:54:52.750 INFO  (qtp720239731-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={_=1477533293151&wt=json} status=0 QTime=0
+2016-10-27 01:54:53.562 INFO  (qtp720239731-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={_=1477533293960&wt=json} status=0 QTime=14
+2016-10-27 01:54:54.802 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1477533295197&contentType=text/html;charset%3Dutf-8} status=0 QTime=2
+2016-10-27 01:54:54.806 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1477533295197&contentType=text/html;charset%3Dutf-8} status=0 QTime=0
+2016-10-27 01:54:54.826 WARN  (qtp720239731-20) [   x:solr_mysql] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_6]
+java.nio.file.NoSuchFileException: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/segments_6
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:97)
+	at java.nio.file.Files.readAttributes(Files.java:1686)
+	at java.nio.file.Files.size(Files.java:2275)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:124)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:604)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:592)
+	at org.apache.solr.handler.admin.LukeRequestHandler.handleRequestBody(LukeRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-27 01:54:54.827 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/replication params={command=details&_=1477533295237&wt=json} status=0 QTime=1
+2016-10-27 01:54:54.829 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={numTerms=0&_=1477533295234&show=index&wt=json} status=0 QTime=3
+2016-10-27 01:54:54.833 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/ping params={action=status&_=1477533295241&wt=json} status=503 QTime=2
+2016-10-27 01:54:54.838 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1477533295240} status=0 QTime=4
+2016-10-27 01:54:54.848 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/system params={_=1477533295238&wt=json} status=0 QTime=18
+2016-10-27 01:55:13.083 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/select params={indent=true&q=keyword:q&_=1477533313489&wt=json} hits=0 status=0 QTime=1
+2016-10-27 02:14:20.847 WARN  (qtp720239731-16) [   x:solr_mysql] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_6]
+java.nio.file.NoSuchFileException: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/segments_6
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:97)
+	at java.nio.file.Files.readAttributes(Files.java:1686)
+	at java.nio.file.Files.size(Files.java:2275)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:124)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:604)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:592)
+	at org.apache.solr.handler.admin.LukeRequestHandler.handleRequestBody(LukeRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-27 02:14:20.852 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={_=1477534461259&show=schema&wt=json} status=0 QTime=6
+2016-10-27 02:14:23.871 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/replication params={command=details&_=1477534464264&wt=json} status=0 QTime=1
+2016-10-27 02:14:25.419 WARN  (qtp720239731-20) [   x:solr_mysql] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_6]
+java.nio.file.NoSuchFileException: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/segments_6
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:97)
+	at java.nio.file.Files.readAttributes(Files.java:1686)
+	at java.nio.file.Files.size(Files.java:2275)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:124)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:604)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:592)
+	at org.apache.solr.handler.admin.LukeRequestHandler.handleRequestBody(LukeRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-27 02:14:25.420 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={numTerms=0&_=1477534465825&wt=json} status=0 QTime=1
+2016-10-27 02:14:25.428 WARN  (qtp720239731-16) [   x:solr_mysql] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_6]
+java.nio.file.NoSuchFileException: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/segments_6
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:97)
+	at java.nio.file.Files.readAttributes(Files.java:1686)
+	at java.nio.file.Files.size(Files.java:2275)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:124)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:604)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:592)
+	at org.apache.solr.handler.admin.LukeRequestHandler.handleRequestBody(LukeRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-27 02:14:25.430 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={_=1477534465847&show=schema&wt=json} status=0 QTime=2
+2016-10-27 02:14:26.211 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/segments params={_=1477534466623&wt=json} status=0 QTime=8
+2016-10-27 02:14:27.186 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/ping params={ts=1477534467602&_=1477534467602&wt=json} hits=0 status=0 QTime=2
+2016-10-27 02:14:27.187 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/ping params={ts=1477534467602&_=1477534467602&wt=json} status=0 QTime=2
+2016-10-27 02:14:28.419 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1477534468827&wt=json} status=0 QTime=1
+2016-10-27 02:14:28.479 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1477534468875&wt=json} status=0 QTime=1
+2016-10-27 02:14:28.481 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534468883&wt=json} status=0 QTime=1
+2016-10-27 02:14:28.481 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1477534468876} status=0 QTime=1
+2016-10-27 02:14:31.562 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:14:31.571 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:14:31.572 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&command=full-import&debug=false&wt=json} status=0 QTime=11
+2016-10-27 02:14:31.572 INFO  (Thread-18) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:14:31.575 INFO  (Thread-18) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:14:31.579 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534471998&wt=json} status=0 QTime=0
+2016-10-27 02:14:31.583 INFO  (Thread-18) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&command=full-import&debug=false&wt=json} status=0 QTime=11{deleteByQuery=*:* (-1549307186070421504)} 0 22
+2016-10-27 02:14:42.534 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:14:42.536 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:14:42.537 INFO  (Thread-19) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:14:42.537 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3
+2016-10-27 02:14:42.537 INFO  (Thread-19) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:14:42.544 INFO  (Thread-19) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3{deleteByQuery=*:* (-1549307197561765888)} 0 10
+2016-10-27 02:14:42.544 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534482963&wt=json} status=0 QTime=0
+2016-10-27 02:14:46.582 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-27 02:14:46.583 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2016-10-27 02:14:46.584 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-27 02:14:46.930 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534487346&wt=json} status=0 QTime=0
+2016-10-27 02:14:48.558 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:14:48.562 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:14:48.562 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=4
+2016-10-27 02:14:48.562 INFO  (Thread-20) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:14:48.563 INFO  (Thread-20) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:14:48.567 INFO  (Thread-20) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=4{deleteByQuery=*:* (-1549307203880484864)} 0 9
+2016-10-27 02:14:48.574 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534488988&wt=json} status=0 QTime=0
+2016-10-27 02:15:03.566 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-27 02:15:03.567 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2016-10-27 02:15:03.573 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-27 02:16:41.020 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:16:41.022 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:16:41.023 INFO  (Thread-21) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:16:41.023 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=4
+2016-10-27 02:16:41.023 INFO  (Thread-21) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:16:41.026 INFO  (Thread-21) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=4{deleteByQuery=*:* (-1549307321803341824)} 0 7
+2016-10-27 02:16:41.031 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534601446&wt=json} status=0 QTime=0
+2016-10-27 02:16:43.194 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534603607&wt=json} status=0 QTime=0
+2016-10-27 02:16:43.938 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534604352&wt=json} status=0 QTime=0
+2016-10-27 02:16:44.108 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534604525&wt=json} status=0 QTime=0
+2016-10-27 02:16:44.274 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534604691&wt=json} status=0 QTime=0
+2016-10-27 02:16:44.416 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534604834&wt=json} status=0 QTime=0
+2016-10-27 02:16:44.568 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534604981&wt=json} status=0 QTime=0
+2016-10-27 02:16:46.127 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:16:46.131 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:16:46.132 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=4
+2016-10-27 02:16:46.132 INFO  (Thread-22) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:16:46.132 INFO  (Thread-22) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:16:46.137 INFO  (Thread-22) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=4{deleteByQuery=*:* (-1549307327160516608)} 0 9
+2016-10-27 02:16:46.138 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534606554&wt=json} status=0 QTime=0
+2016-10-27 02:16:48.037 INFO  (qtp720239731-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1477534608443&wt=json} status=0 QTime=0
+2016-10-27 02:16:48.722 INFO  (qtp720239731-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={_=1477534608479&wt=json} status=0 QTime=649
+2016-10-27 02:16:48.731 ERROR (Finalizer) [   ] o.a.s.h.d.JdbcDataSource JdbcDataSource was not closed prior to finalize(), indicates a bug -- POSSIBLE RESOURCE LEAK!!!
+2016-10-27 02:16:48.731 ERROR (Finalizer) [   ] o.a.s.h.d.JdbcDataSource JdbcDataSource was not closed prior to finalize(), indicates a bug -- POSSIBLE RESOURCE LEAK!!!
+2016-10-27 02:16:48.731 ERROR (Finalizer) [   ] o.a.s.h.d.JdbcDataSource JdbcDataSource was not closed prior to finalize(), indicates a bug -- POSSIBLE RESOURCE LEAK!!!
+2016-10-27 02:16:48.731 ERROR (Finalizer) [   ] o.a.s.h.d.JdbcDataSource JdbcDataSource was not closed prior to finalize(), indicates a bug -- POSSIBLE RESOURCE LEAK!!!
+2016-10-27 02:16:48.731 ERROR (Finalizer) [   ] o.a.s.h.d.JdbcDataSource JdbcDataSource was not closed prior to finalize(), indicates a bug -- POSSIBLE RESOURCE LEAK!!!
+2016-10-27 02:16:48.732 ERROR (Finalizer) [   ] o.a.s.h.d.JdbcDataSource JdbcDataSource was not closed prior to finalize(), indicates a bug -- POSSIBLE RESOURCE LEAK!!!
+2016-10-27 02:16:48.804 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1477534609196&wt=json} status=0 QTime=0
+2016-10-27 02:16:48.810 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1477534609198} status=0 QTime=1
+2016-10-27 02:16:48.812 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534609203&wt=json} status=0 QTime=0
+2016-10-27 02:16:51.174 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1477534611573&contentType=text/html;charset%3Dutf-8} status=0 QTime=0
+2016-10-27 02:16:51.176 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1477534611573&contentType=text/html;charset%3Dutf-8} status=0 QTime=0
+2016-10-27 02:16:51.200 WARN  (qtp720239731-13) [   x:solr_mysql] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_6]
+java.nio.file.NoSuchFileException: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/segments_6
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:97)
+	at java.nio.file.Files.readAttributes(Files.java:1686)
+	at java.nio.file.Files.size(Files.java:2275)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:124)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:604)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:592)
+	at org.apache.solr.handler.admin.LukeRequestHandler.handleRequestBody(LukeRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-27 02:16:51.202 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/replication params={command=details&_=1477534611607&wt=json} status=0 QTime=0
+2016-10-27 02:16:51.202 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1477534611610} status=0 QTime=0
+2016-10-27 02:16:51.202 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={numTerms=0&_=1477534611603&show=index&wt=json} status=0 QTime=1
+2016-10-27 02:16:51.204 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/ping params={action=status&_=1477534611611&wt=json} status=503 QTime=0
+2016-10-27 02:16:51.218 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/system params={_=1477534611608&wt=json} status=0 QTime=16
+2016-10-27 02:16:55.871 WARN  (qtp720239731-12) [   x:solr_mysql] o.a.s.h.a.LukeRequestHandler Error getting file length for [segments_6]
+java.nio.file.NoSuchFileException: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index/segments_6
+	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:86)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:102)
+	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:107)
+	at sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:144)
+	at sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:97)
+	at java.nio.file.Files.readAttributes(Files.java:1686)
+	at java.nio.file.Files.size(Files.java:2275)
+	at org.apache.lucene.store.FSDirectory.fileLength(FSDirectory.java:210)
+	at org.apache.lucene.store.NRTCachingDirectory.fileLength(NRTCachingDirectory.java:124)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getFileLength(LukeRequestHandler.java:604)
+	at org.apache.solr.handler.admin.LukeRequestHandler.getIndexInfo(LukeRequestHandler.java:592)
+	at org.apache.solr.handler.admin.LukeRequestHandler.handleRequestBody(LukeRequestHandler.java:137)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:654)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:460)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:257)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:208)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+2016-10-27 02:16:55.875 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={_=1477534616274&show=schema&wt=json} status=0 QTime=4
+2016-10-27 02:16:56.025 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-27 02:16:56.025 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2016-10-27 02:16:56.026 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-27 02:16:57.720 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={_=1477534618137&wt=json} status=0 QTime=0
+2016-10-27 02:16:59.105 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/ping params={ts=1477534619519&_=1477534619520&wt=json} hits=0 status=0 QTime=1
+2016-10-27 02:16:59.106 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/ping params={ts=1477534619519&_=1477534619520&wt=json} status=0 QTime=1
+2016-10-27 02:16:59.918 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={stats=true&_=1477534620302&wt=json} status=0 QTime=16
+2016-10-27 02:17:03.548 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1477534623955&wt=json} status=0 QTime=0
+2016-10-27 02:17:03.601 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1477534624010&wt=json} status=0 QTime=0
+2016-10-27 02:17:03.602 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1477534624011} status=0 QTime=0
+2016-10-27 02:17:03.607 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534624013&wt=json} status=0 QTime=0
+2016-10-27 02:17:09.843 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:17:09.846 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:17:09.846 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3
+2016-10-27 02:17:09.846 INFO  (Thread-23) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:17:09.847 INFO  (Thread-23) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:17:09.851 INFO  (Thread-23) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3{deleteByQuery=*:* (-1549307352027496448)} 0 8
+2016-10-27 02:17:09.858 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534630271&wt=json} status=0 QTime=0
+2016-10-27 02:17:10.925 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:17:10.928 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:17:10.929 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3
+2016-10-27 02:17:10.929 INFO  (Thread-24) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:17:10.929 INFO  (Thread-24) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:17:10.933 INFO  (Thread-24) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3{deleteByQuery=*:* (-1549307353162055680)} 0 8
+2016-10-27 02:17:10.940 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534631353&wt=json} status=0 QTime=0
+2016-10-27 02:17:11.132 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:17:11.135 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:17:11.135 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3
+2016-10-27 02:17:11.136 INFO  (Thread-25) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:17:11.136 INFO  (Thread-25) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:17:11.138 INFO  (Thread-25) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3{deleteByQuery=*:* (-1549307353378062336)} 0 6
+2016-10-27 02:17:11.140 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534631560&wt=json} status=0 QTime=0
+2016-10-27 02:17:11.295 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:17:11.298 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:17:11.298 INFO  (Thread-26) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:17:11.298 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3
+2016-10-27 02:17:11.299 INFO  (Thread-26) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:17:11.301 INFO  (Thread-26) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3{deleteByQuery=*:* (-1549307353548980224)} 0 5
+2016-10-27 02:17:11.305 INFO  (qtp720239731-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534631724&wt=json} status=0 QTime=0
+2016-10-27 02:17:11.463 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:17:11.465 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:17:11.468 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=5
+2016-10-27 02:17:11.468 INFO  (Thread-27) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:17:11.468 INFO  (Thread-27) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:17:11.470 INFO  (Thread-27) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=5{deleteByQuery=*:* (-1549307353727238144)} 0 7
+2016-10-27 02:17:11.473 INFO  (qtp720239731-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534631892&wt=json} status=0 QTime=0
+2016-10-27 02:17:11.600 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:17:11.602 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:17:11.603 INFO  (Thread-28) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:17:11.603 INFO  (qtp720239731-16) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=4
+2016-10-27 02:17:11.604 INFO  (Thread-28) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:17:11.605 INFO  (Thread-28) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=4{deleteByQuery=*:* (-1549307353868795904)} 0 6
+2016-10-27 02:17:11.609 INFO  (qtp720239731-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534632029&wt=json} status=0 QTime=0
+2016-10-27 02:17:11.747 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:17:11.749 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:17:11.750 INFO  (qtp720239731-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3
+2016-10-27 02:17:11.750 INFO  (Thread-29) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 02:17:11.750 INFO  (Thread-29) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:17:11.753 INFO  (Thread-29) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&indent=true&clean=true&commit=true&verbose=false&entity=b41sgk&command=full-import&debug=false&wt=json} status=0 QTime=3{deleteByQuery=*:* (-1549307354022936576)} 0 6
+2016-10-27 02:17:11.757 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534632177&wt=json} status=0 QTime=0
+2016-10-27 02:17:24.851 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2016-10-27 02:17:24.851 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 No uncommitted changes. Skipping IW.commit.
+2016-10-27 02:17:24.853 INFO  (commitScheduler-10-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2016-10-27 02:17:50.083 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 02:17:50.086 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 02:17:50.087 INFO  (Thread-30) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Delta Import
+2016-10-27 02:17:50.087 INFO  (qtp720239731-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&clean=false&indent=true&commit=true&verbose=false&entity=b41sgk&command=delta-import&debug=false&wt=json} status=0 QTime=4
+2016-10-27 02:17:50.087 INFO  (Thread-30) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 02:17:50.088 INFO  (Thread-30) [   x:solr_mysql] o.a.s.h.d.DocBuilder Starting delta collection.
+2016-10-27 02:17:50.089 INFO  (Thread-30) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={optimize=false&clean=false&indent=true&commit=true&verbose=false&entity=b41sgk&command=delta-import&debug=false&wt=json} status=0 QTime=4{} 0 6
+2016-10-27 02:17:50.094 INFO  (qtp720239731-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=status&_=1477534670514&wt=json} status=0 QTime=0
+2016-10-27 02:18:39.857 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@81fb85b{HTTP/1.1}{0.0.0.0:8983}
+2016-10-27 02:18:39.858 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1499442480
+2016-10-27 02:18:39.860 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [solr_mysql]  CLOSING SolrCore org.apache.solr.core.SolrCore@56f7d03f
+2016-10-27 02:18:39.861 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=5,autocommit maxTime=15000ms,autocommits=5,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=13,cumulative_errors=0,transaction_logs_total_size=822,transaction_logs_total_number=10}
+2016-10-27 02:18:39.861 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-10-27 02:18:39.861 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-10-27 02:18:39.861 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2016-10-27 02:18:39.867 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [solr_mysql] Closing main searcher on request.
+2016-10-27 02:18:39.868 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2016-10-27 02:18:39.869 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory looking to close /root/solr/solr-5.5.3/server/solr/solr_mysql/data [CachedDir<<refCount=0;path=/root/solr/solr-5.5.3/server/solr/solr_mysql/data;done=false>>]
+2016-10-27 02:18:39.869 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory Closing directory: /root/solr/solr-5.5.3/server/solr/solr_mysql/data
+2016-10-27 02:18:39.869 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory looking to close /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index [CachedDir<<refCount=0;path=/root/solr/solr-5.5.3/server/solr/solr_mysql/data/index;done=false>>]
+2016-10-27 02:18:39.870 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory Closing directory: /root/solr/solr-5.5.3/server/solr/solr_mysql/data/index
+2016-10-27 02:18:39.873 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@183a37d9{/solr,file:/root/solr/solr-5.5.3/server/solr-webapp/webapp/,UNAVAILABLE}{/root/solr/solr-5.5.3/server/solr-webapp/webapp}

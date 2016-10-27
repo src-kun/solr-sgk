@@ -1,0 +1,346 @@
+2016-10-27 06:38:00.737 INFO  (main) [   ] o.e.j.u.log Logging initialized @568ms
+2016-10-27 06:38:01.081 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-10-27 06:38:01.114 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-10-27 06:38:01.116 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/root/solr/solr-sgk/server/contexts/] at interval 0
+2016-10-27 06:38:02.006 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-10-27 06:38:02.022 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@146ba0ac{/solr,file:/root/solr/solr-sgk/server/solr-webapp/webapp/,STARTING}{/root/solr/solr-sgk/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-10-27 06:38:02.033 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=239465106@e45f292
+2016-10-27 06:38:02.056 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-27 06:38:02.056 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /root/solr/solr-sgk/server/solr
+2016-10-27 06:38:02.058 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/root/solr/solr-sgk/server/solr'
+2016-10-27 06:38:02.058 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-27 06:38:02.058 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /root/solr/solr-sgk/server/solr
+2016-10-27 06:38:02.069 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /root/solr/solr-sgk/server/solr/solr.xml
+2016-10-27 06:38:02.212 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /root/solr/solr-sgk/server/solr
+2016-10-27 06:38:02.241 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 341853399
+2016-10-27 06:38:02.241 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/root/solr/solr-sgk/server/solr]
+2016-10-27 06:38:02.242 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /root/solr/solr-sgk/server/solr/lib to classpath: /root/solr/solr-sgk/server/solr/lib
+2016-10-27 06:38:02.262 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2016-10-27 06:38:02.493 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-10-27 06:38:02.496 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-10-27 06:38:02.497 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-10-27 06:38:02.500 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-10-27 06:38:02.500 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-10-27 06:38:02.557 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /root/solr/solr-sgk/server/solr
+2016-10-27 06:38:02.568 INFO  (main) [   ] o.a.s.c.CoreDescriptor Created CoreDescriptor: {name=solr_mysql, config=solrconfig.xml, loadOnStartup=true, schema=schema.xml, configSetProperties=configsetprops.json, transient=false, dataDir=data}
+2016-10-27 06:38:02.568 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found core solr_mysql in /root/solr/solr-sgk/server/solr/solr_mysql
+2016-10-27 06:38:02.568 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions
+2016-10-27 06:38:02.573 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/root/solr/solr-sgk/server
+2016-10-27 06:38:02.573 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-10-27 06:38:02.573 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/root/solr/solr-sgk/server/solr/solr_mysql'
+2016-10-27 06:38:02.574 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-27 06:38:02.574 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /root/solr/solr-sgk/server/solr
+2016-10-27 06:38:02.585 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@146ba0ac{/solr,file:/root/solr/solr-sgk/server/solr-webapp/webapp/,AVAILABLE}{/root/solr/solr-sgk/server/solr-webapp/webapp}
+2016-10-27 06:38:02.615 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@6b81ce95{HTTP/1.1}{0.0.0.0:8983}
+2016-10-27 06:38:02.616 INFO  (main) [   ] o.e.j.s.Server Started @2448ms
+2016-10-27 06:38:02.637 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2016-10-27 06:38:02.640 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-10-27 06:38:02.644 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/dist/solr-dataimporthandler-5.5.3.jar' to classloader
+2016-10-27 06:38:02.644 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/dist/solr-dataimporthandler-extras-5.5.3.jar' to classloader
+2016-10-27 06:38:02.644 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2016-10-27 06:38:02.644 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-10-27 06:38:02.645 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/poi-3.11.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/dist/solr-cell-5.5.3.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-10-27 06:38:02.646 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-10-27 06:38:02.647 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/dist/solr-langid-5.5.3.jar' to classloader
+2016-10-27 06:38:02.647 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-10-27 06:38:02.647 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/velocity/lib/commons-collections-3.2.2.jar' to classloader
+2016-10-27 06:38:02.647 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-10-27 06:38:02.647 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-10-27 06:38:02.647 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/root/solr/solr-sgk/dist/solr-velocity-5.5.3.jar' to classloader
+2016-10-27 06:38:02.828 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-10-27 06:38:02.836 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.5.3
+2016-10-27 06:38:03.017 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Loaded SolrConfig: solrconfig.xml
+2016-10-27 06:38:03.089 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [solr_mysql] Schema name=example-DIH-db
+2016-10-27 06:38:03.428 WARN  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.ThaiWordFilterFactory]. Please consult documentation how to replace it accordingly.
+2016-10-27 06:38:03.457 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-10-27 06:38:03.525 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-10-27 06:38:03.529 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-10-27 06:38:03.643 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or '/root/solr/solr-sgk/server/solr/solr_mysql'
+2016-10-27 06:38:03.644 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'solr_mysql' using configuration from instancedir /root/solr/solr-sgk/server/solr/solr_mysql
+2016-10-27 06:38:03.678 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-10-27 06:38:03.735 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [[solr_mysql] ] Opening new SolrCore at [/root/solr/solr-sgk/server/solr/solr_mysql], dataDir=[/root/solr/solr-sgk/server/solr/solr_mysql/data/]
+2016-10-27 06:38:03.784 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-10-27 06:38:03.789 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [[solr_mysql] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-10-27 06:38:03.789 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [[solr_mysql] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2016-10-27 06:38:03.793 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SchemaCodecFactory Using default compressionMode: BEST_SPEED
+2016-10-27 06:38:03.813 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory return new directory for /root/solr/solr-sgk/server/solr/solr_mysql/data
+2016-10-27 06:38:03.813 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore New index directory detected: old=null new=/root/solr/solr-sgk/server/solr/solr_mysql/data/index/
+2016-10-27 06:38:03.814 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory return new directory for /root/solr/solr-sgk/server/solr/solr_mysql/data/index
+2016-10-27 06:38:03.830 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2016-10-27 06:38:03.832 INFO  (OldIndexDirectoryCleanupThreadForCore-solr_mysql) [   x:solr_mysql] o.a.s.c.SolrCore Looking for old index directories to cleanup for core solr_mysql in /root/solr/solr-sgk/server/solr/solr_mysql/data/
+2016-10-27 06:38:03.832 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-10-27 06:38:03.934 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-10-27 06:38:03.967 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-27 06:38:03.968 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-27 06:38:03.969 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-27 06:38:03.969 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-10-27 06:38:03.981 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2016-10-27 06:38:03.981 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-10-27 06:38:03.981 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-10-27 06:38:03.982 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2016-10-27 06:38:03.982 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2016-10-27 06:38:03.982 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-10-27 06:38:03.982 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2016-10-27 06:38:03.983 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/dataimport,/update/extract
+2016-10-27 06:38:03.984 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-10-27 06:38:03.991 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-10-27 06:38:03.992 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-10-27 06:38:04.003 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2016-10-27 06:38:04.004 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2016-10-27 06:38:04.038 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/root/solr/solr-sgk/server/solr/solr_mysql/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@41090e54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+2016-10-27 06:38:04.039 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy newest commit generation = 9
+2016-10-27 06:38:04.070 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.s.SolrIndexSearcher Opening Searcher@47dfede[solr_mysql] main
+2016-10-27 06:38:04.075 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /root/solr/solr-sgk/server/solr/solr_mysql/conf
+2016-10-27 06:38:04.076 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=/root/solr/solr-sgk/server/solr/solr_mysql/conf}
+2016-10-27 06:38:04.085 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=/root/solr/solr-sgk/server/solr/solr_mysql/conf
+2016-10-27 06:38:04.086 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2016-10-27 06:38:04.093 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-10-27 06:38:04.097 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-10-27 06:38:04.102 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2016-10-27 06:38:04.103 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: /root/solr/solr-sgk/server/solr/solr_mysql/conf/elevate.xml
+2016-10-27 06:38:04.116 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-10-27 06:38:04.119 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@47dfede[solr_mysql] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_7(5.5.3):C17412)))}
+2016-10-27 06:38:04.124 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-10-27 06:38:04.125 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-10-27 06:38:04.144 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.VersionInfo Found MAX value 1549315538491015171 from Terms for _version_ in index
+2016-10-27 06:38:04.147 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.u.UpdateLog Took 21.0ms to seed version buckets with highest version 1549315538491015171
+2016-10-27 06:38:04.147 ERROR (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field text
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1278)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:428)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:169)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:372)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:759)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:547)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:315)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:186)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:153)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:159)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:246)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:155)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2102)
+	at org.apache.solr.core.QuerySenderListener.newSearcher(QuerySenderListener.java:68)
+	at org.apache.solr.core.SolrCore$5.call(SolrCore.java:1869)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:231)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-10-27 06:38:04.148 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_mysql] o.a.s.c.CoreContainer registering core: solr_mysql
+2016-10-27 06:38:04.149 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} status=400 QTime=29
+2016-10-27 06:38:04.150 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2016-10-27 06:38:04.150 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-10-27 06:38:04.150 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2016-10-27 06:38:04.150 INFO  (searcherExecutor-7-thread-1-processing-x:solr_mysql) [   x:solr_mysql] o.a.s.c.SolrCore [solr_mysql] Registered new searcher Searcher@47dfede[solr_mysql] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_7(5.5.3):C17412)))}
+2016-10-27 06:45:46.425 INFO  (qtp434176574-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1477550746731} status=0 QTime=2
+2016-10-27 06:45:46.590 INFO  (qtp434176574-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1477550746903} status=0 QTime=85
+2016-10-27 06:45:46.883 INFO  (qtp434176574-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={wt=json&_=1477550747217} status=0 QTime=2
+2016-10-27 06:45:49.581 INFO  (qtp434176574-21) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1477550749980} status=0 QTime=0
+2016-10-27 06:45:49.589 INFO  (qtp434176574-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1477550749981} status=0 QTime=1
+2016-10-27 06:45:49.636 INFO  (qtp434176574-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1477550750020} status=0 QTime=6
+2016-10-27 06:45:49.641 INFO  (qtp434176574-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/replication params={wt=json&command=details&_=1477550750027} status=0 QTime=8
+2016-10-27 06:45:49.645 INFO  (qtp434176574-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/file params={file=admin-extra.html&_=1477550750030} status=0 QTime=0
+2016-10-27 06:45:49.660 INFO  (qtp434176574-21) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1477550750032} status=503 QTime=5
+2016-10-27 06:45:49.672 INFO  (qtp434176574-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/system params={wt=json&_=1477550750029} status=0 QTime=31
+2016-10-27 06:45:50.710 INFO  (qtp434176574-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1477550751106} status=0 QTime=4
+2016-10-27 06:45:50.778 INFO  (qtp434176574-13) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1477550751183} status=0 QTime=0
+2016-10-27 06:45:50.786 INFO  (qtp434176574-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1477550751189} status=0 QTime=0
+2016-10-27 06:45:50.791 INFO  (qtp434176574-15) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&command=show-config&_=1477550751184} status=0 QTime=6
+2016-10-27 06:45:53.409 INFO  (qtp434176574-21) [   x:solr_mysql] o.a.s.h.d.DataImporter Loading DIH Configuration: db-data-config.xml
+2016-10-27 06:45:53.415 INFO  (qtp434176574-21) [   x:solr_mysql] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2016-10-27 06:45:53.426 INFO  (qtp434176574-21) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={debug=false&optimize=false&indent=true&commit=true&clean=true&wt=json&command=full-import&verbose=false} status=0 QTime=17
+2016-10-27 06:45:53.426 INFO  (Thread-17) [   x:solr_mysql] o.a.s.h.d.DataImporter Starting Full Import
+2016-10-27 06:45:53.432 INFO  (qtp434176574-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1477550753851} status=0 QTime=0
+2016-10-27 06:45:53.441 INFO  (Thread-17) [   x:solr_mysql] o.a.s.h.d.SimplePropertiesWriter Read dataimport.properties
+2016-10-27 06:45:53.566 INFO  (Thread-17) [   x:solr_mysql] o.a.s.s.SolrIndexSearcher Opening Searcher@341d30e4[solr_mysql] realtime
+2016-10-27 06:45:53.588 INFO  (Thread-17) [   x:solr_mysql] o.a.s.h.d.JdbcDataSource Creating a connection for entity b41sgk with URL: jdbc:mysql://192.168.189.134:3306/newsgk
+2016-10-27 06:45:57.163 INFO  (qtp434176574-21) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1477550757574} status=0 QTime=1
+2016-10-27 06:45:57.578 INFO  (qtp434176574-20) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1477550757991} status=0 QTime=0
+2016-10-27 06:45:57.798 INFO  (qtp434176574-19) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1477550758216} status=0 QTime=0
+2016-10-27 06:45:57.974 INFO  (qtp434176574-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/dataimport params={indent=true&wt=json&command=status&_=1477550758388} status=0 QTime=0
+2016-10-27 06:45:59.699 ERROR (Thread-17) [   x:solr_mysql] o.a.s.h.d.DocBuilder Exception while processing: b41sgk document : SolrInputDocument(fields: []):org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select * from b41sgk Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:323)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:244)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:475)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:414)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:329)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:232)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:416)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:480)
+	at org.apache.solr.handler.dataimport.DataImporter$1.run(DataImporter.java:461)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:590)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:57)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1606)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:633)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:347)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:219)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$1.call(JdbcDataSource.java:192)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$1.call(JdbcDataSource.java:172)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getConnection(JdbcDataSource.java:503)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:313)
+	... 12 more
+Caused by: com.mysql.cj.core.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:93)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:133)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:149)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:83)
+	at com.mysql.cj.mysqla.MysqlaSession.connect(MysqlaSession.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1726)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1596)
+	... 19 more
+Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.core.io.StandardSocketFactory.connect(StandardSocketFactory.java:202)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:57)
+	... 22 more
+
+2016-10-27 06:45:59.700 INFO  (Thread-17) [   x:solr_mysql] o.a.s.u.p.LogUpdateProcessorFactory [solr_mysql]  webapp=/solr path=/dataimport params={debug=false&optimize=false&indent=true&commit=true&clean=true&wt=json&command=full-import&verbose=false} status=0 QTime=17{deleteByQuery=*:* (-1549324258879995904)} 0 6291
+2016-10-27 06:45:59.701 ERROR (Thread-17) [   x:solr_mysql] o.a.s.h.d.DataImporter Full Import failed:java.lang.RuntimeException: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select * from b41sgk Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:270)
+	at org.apache.solr.handler.dataimport.DataImporter.doFullImport(DataImporter.java:416)
+	at org.apache.solr.handler.dataimport.DataImporter.runCmd(DataImporter.java:480)
+	at org.apache.solr.handler.dataimport.DataImporter$1.run(DataImporter.java:461)
+Caused by: java.lang.RuntimeException: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select * from b41sgk Processing Document # 1
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:416)
+	at org.apache.solr.handler.dataimport.DocBuilder.doFullDump(DocBuilder.java:329)
+	at org.apache.solr.handler.dataimport.DocBuilder.execute(DocBuilder.java:232)
+	... 3 more
+Caused by: org.apache.solr.handler.dataimport.DataImportHandlerException: Unable to execute query: select * from b41sgk Processing Document # 1
+	at org.apache.solr.handler.dataimport.DataImportHandlerException.wrapAndThrow(DataImportHandlerException.java:69)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:323)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:283)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getData(JdbcDataSource.java:52)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.initQuery(SqlEntityProcessor.java:59)
+	at org.apache.solr.handler.dataimport.SqlEntityProcessor.nextRow(SqlEntityProcessor.java:73)
+	at org.apache.solr.handler.dataimport.EntityProcessorWrapper.nextRow(EntityProcessorWrapper.java:244)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:475)
+	at org.apache.solr.handler.dataimport.DocBuilder.buildDocument(DocBuilder.java:414)
+	... 5 more
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:590)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:57)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1606)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:633)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:347)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:219)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$1.call(JdbcDataSource.java:192)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$1.call(JdbcDataSource.java:172)
+	at org.apache.solr.handler.dataimport.JdbcDataSource.getConnection(JdbcDataSource.java:503)
+	at org.apache.solr.handler.dataimport.JdbcDataSource$ResultSetIterator.<init>(JdbcDataSource.java:313)
+	... 12 more
+Caused by: com.mysql.cj.core.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:54)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:93)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createException(ExceptionFactory.java:133)
+	at com.mysql.cj.core.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:149)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:83)
+	at com.mysql.cj.mysqla.MysqlaSession.connect(MysqlaSession.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:1726)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:1596)
+	... 19 more
+Caused by: java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.cj.core.io.StandardSocketFactory.connect(StandardSocketFactory.java:202)
+	at com.mysql.cj.mysqla.io.MysqlaSocketConnection.connect(MysqlaSocketConnection.java:57)
+	... 22 more
+
+2016-10-27 06:45:59.702 INFO  (Thread-17) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 start rollback{}
+2016-10-27 06:45:59.702 INFO  (Thread-17) [   x:solr_mysql] o.a.s.u.DefaultSolrCoreState Rollback old IndexWriter... core=solr_mysql
+2016-10-27 06:45:59.706 INFO  (Thread-17) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/root/solr/solr-sgk/server/solr/solr_mysql/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@41090e54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+2016-10-27 06:45:59.706 INFO  (Thread-17) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy newest commit generation = 9
+2016-10-27 06:45:59.706 INFO  (Thread-17) [   x:solr_mysql] o.a.s.u.DefaultSolrCoreState New IndexWriter is ready to be used.
+2016-10-27 06:45:59.706 INFO  (Thread-17) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 end_rollback
+2016-10-27 06:46:02.785 INFO  (qtp434176574-12) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/replication params={wt=json&command=details&_=1477550763200} status=0 QTime=0
+2016-10-27 06:46:05.396 INFO  (qtp434176574-14) [   x:solr_mysql] o.a.s.c.S.Request [solr_mysql]  webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1477550765791} hits=17412 status=0 QTime=9
+2016-10-27 06:46:26.544 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@6b81ce95{HTTP/1.1}{0.0.0.0:8983}
+2016-10-27 06:46:26.545 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=341853399
+2016-10-27 06:46:26.546 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [solr_mysql]  CLOSING SolrCore org.apache.solr.core.SolrCore@229d84d0
+2016-10-27 06:46:26.547 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=1,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=1537086,transaction_logs_total_number=1}
+2016-10-27 06:46:26.548 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-10-27 06:46:26.548 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-10-27 06:46:26.548 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2016-10-27 06:46:26.548 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.u.DirectUpdateHandler2 Committing on IndexWriter close.
+2016-10-27 06:46:26.566 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/root/solr/solr-sgk/server/solr/solr_mysql/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@41090e54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/root/solr/solr-sgk/server/solr/solr_mysql/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@41090e54; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+2016-10-27 06:46:26.566 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.SolrDeletionPolicy newest commit generation = 10
+2016-10-27 06:46:26.571 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.SolrCore [solr_mysql] Closing main searcher on request.
+2016-10-27 06:46:26.575 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2016-10-27 06:46:26.576 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory looking to close /root/solr/solr-sgk/server/solr/solr_mysql/data/index [CachedDir<<refCount=0;path=/root/solr/solr-sgk/server/solr/solr_mysql/data/index;done=false>>]
+2016-10-27 06:46:26.576 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory Closing directory: /root/solr/solr-sgk/server/solr/solr_mysql/data/index
+2016-10-27 06:46:26.576 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory looking to close /root/solr/solr-sgk/server/solr/solr_mysql/data [CachedDir<<refCount=0;path=/root/solr/solr-sgk/server/solr/solr_mysql/data;done=false>>]
+2016-10-27 06:46:26.577 INFO  (coreCloseExecutor-12-thread-1) [   x:solr_mysql] o.a.s.c.CachingDirectoryFactory Closing directory: /root/solr/solr-sgk/server/solr/solr_mysql/data
+2016-10-27 06:46:26.579 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@146ba0ac{/solr,file:/root/solr/solr-sgk/server/solr-webapp/webapp/,UNAVAILABLE}{/root/solr/solr-sgk/server/solr-webapp/webapp}

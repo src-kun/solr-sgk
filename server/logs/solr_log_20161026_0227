@@ -1,0 +1,42 @@
+2016-10-26 06:01:52.394 INFO  (main) [   ] o.e.j.u.log Logging initialized @521ms
+2016-10-26 06:01:52.657 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.13.v20150730
+2016-10-26 06:01:52.682 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-10-26 06:01:52.685 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/root/solr/solr-5.5.3/server/contexts/] at interval 0
+2016-10-26 06:01:53.542 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-10-26 06:01:53.567 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@ceee5f1{/solr,file:/root/solr/solr-5.5.3/server/solr-webapp/webapp/,STARTING}{/root/solr/solr-5.5.3/server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-10-26 06:01:53.583 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=392845727@176a599f
+2016-10-26 06:01:53.611 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-26 06:01:53.611 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /root/solr/solr-5.5.3/server/solr
+2016-10-26 06:01:53.612 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: '/root/solr/solr-5.5.3/server/solr'
+2016-10-26 06:01:53.612 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-10-26 06:01:53.612 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: /root/solr/solr-5.5.3/server/solr
+2016-10-26 06:01:53.623 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /root/solr/solr-5.5.3/server/solr/solr.xml
+2016-10-26 06:01:53.773 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Config-defined core root directory: /root/solr/solr-5.5.3/server/solr
+2016-10-26 06:01:53.802 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1956900248
+2016-10-26 06:01:53.802 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=/root/solr/solr-5.5.3/server/solr]
+2016-10-26 06:01:53.803 WARN  (main) [   ] o.a.s.c.CoreContainer Couldn't add files from /root/solr/solr-5.5.3/server/solr/lib to classpath: /root/solr/solr-5.5.3/server/solr/lib
+2016-10-26 06:01:53.815 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,connectionsEvictorSleepDelay : 5000,maxConnectionIdleTime : 40000,
+2016-10-26 06:01:54.121 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-10-26 06:01:54.124 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-10-26 06:01:54.124 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-10-26 06:01:54.126 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-10-26 06:01:54.126 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-10-26 06:01:54.165 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Looking for core definitions underneath /root/solr/solr-5.5.3/server/solr
+2016-10-26 06:01:54.171 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions
+2016-10-26 06:01:54.174 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=/root/solr/solr-5.5.3/server
+2016-10-26 06:01:54.174 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-10-26 06:01:54.188 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@ceee5f1{/solr,file:/root/solr/solr-5.5.3/server/solr-webapp/webapp/,AVAILABLE}{/root/solr/solr-5.5.3/server/solr-webapp/webapp}
+2016-10-26 06:01:54.217 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@42de5b73{HTTP/1.1}{0.0.0.0:8983}
+2016-10-26 06:01:54.217 INFO  (main) [   ] o.e.j.s.Server Started @2346ms
+2016-10-26 06:02:40.160 INFO  (qtp1044588508-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1477461760434&wt=json} status=0 QTime=30
+2016-10-26 06:02:40.251 INFO  (qtp1044588508-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={_=1477461760616&wt=json} status=0 QTime=29
+2016-10-26 06:03:00.749 INFO  (qtp1044588508-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={_=1477461781151&since=0&wt=json} status=0 QTime=0
+2016-10-26 06:03:10.032 INFO  (qtp1044588508-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={_=1477461790431&wt=json} status=0 QTime=0
+2016-10-26 06:03:12.300 INFO  (qtp1044588508-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/properties params={_=1477461792707&wt=json} status=0 QTime=0
+2016-10-26 06:03:14.559 INFO  (qtp1044588508-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/threads params={_=1477461794967&wt=json} status=0 QTime=9
+2016-10-26 06:03:22.305 INFO  (qtp1044588508-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1477461802688&wt=json} status=0 QTime=0
+2016-10-26 06:03:22.367 INFO  (qtp1044588508-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={_=1477461802756&wt=json} status=0 QTime=16
+2016-10-26 06:03:24.116 INFO  (qtp1044588508-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={_=1477461804527&wt=json} status=0 QTime=0
+2016-10-26 06:27:14.832 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@42de5b73{HTTP/1.1}{0.0.0.0:8983}
+2016-10-26 06:27:14.832 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1956900248
+2016-10-26 06:27:14.837 INFO  (ShutdownMonitor) [   ] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@ceee5f1{/solr,file:/root/solr/solr-5.5.3/server/solr-webapp/webapp/,UNAVAILABLE}{/root/solr/solr-5.5.3/server/solr-webapp/webapp}
