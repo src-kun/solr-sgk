@@ -1,14 +1,17 @@
 <dataConfig>
-  <dataSource name="sgk" type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://192.168.189.134:3306/newsgk" user="root" password="123456" batchSize="-1" />
-  <document name="mysgk">
-    <entity name="b41sgk" pk="id" query="select * from b41sgk">
+  <dataSource name="sgk" type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://192.168.189.134:3306/2wsgk" user="root" password="123456" batchSize="-1" />
+  <document name="sgk_doc">
+    <entity name="2wsgk" pk="id" query="select * from 2wsgk">
         <field column="id" name="id"/>
         <field column="username" name="username"/>
         <field column="email" name="email"/>
         <field column="password" name="password"/>
         <field column="salt" name="salt"/>
         <field column="ip" name="ip"/>
-        <field column="site" name="site"/>
+        <field column="source" name="source"/>
+	<field column="name" name="name"/>
+	<field column="number" name="number"/>
+	<field column="mark" name="mark"/>
     </entity>
   </document>
 </dataConfig>

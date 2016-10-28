@@ -123,9 +123,13 @@
    <field name="password" type="text_general" indexed="true" stored="true"/>
    <field name="salt" type="text_general" indexed="true" stored="true"/>
    <field name="ip" type="text_general" indexed="true" stored="true"/>
-   <field name="site" type="text_general" indexed="true" stored="true"/>
+   <field name="source" type="text_general" indexed="true" stored="true"/>
+   <field name="name" type="text_general" indexed="true" stored="true"/>
+   <field name="number" type="text_general" indexed="true" stored="true"/>
+   <field name="mark" type="text_general" indexed="true" stored="true"/>
+
+   <!--query passwd-->
    <field name="keyword" type="text_ik" indexed="true" stored="false" multiValued="true"/>
-   
    <copyField source="username" dest="keyword"/>
    <copyField source="email" dest="keyword"/>
    <uniqueKey>id</uniqueKey>
