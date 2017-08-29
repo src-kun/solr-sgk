@@ -11,5 +11,4 @@
  
 #参考链接
   http://www.freebuf.com/articles/database/100423.html 
-  
   http://mirrors.hust.edu.cn/apache/lucene/solr/
